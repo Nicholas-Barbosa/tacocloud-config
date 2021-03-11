@@ -1,1 +1,10 @@
-server:  port: 0eureka:  client:    service-url:      defaultZone: http://localhost:8761/eurekauser: ingredient-clientgreeting:   message: Hello World!
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+user: ingredient-client
+
+greeting: 
+  message: Hello Brazilians!
